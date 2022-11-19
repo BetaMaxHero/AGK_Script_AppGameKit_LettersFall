@@ -1,6 +1,7 @@
 
 [apk_settings]
 alias=
+app_new_icon_path=
 app_icon_path=C:\\Users\\JLP\\Desktop\\LettersFall110Percent\\media\\images\\AndroidIcon512x512.png
 notif_icon_path=
 app_name=LettersFall
@@ -45,7 +46,7 @@ prov_profile_path=
 [html5_settings]
 commands_used=0
 dynamic_memory=0
-output_path=C:/Users/JLP/Desktop/HTML5
+output_path=/home/jlp/Desktop/LF-HTML5
 
 [projectfiles]
 FILE_0=audio.agc;-1
@@ -63,8 +64,8 @@ FILE_NAME_1=0;data.agc;0;1
 FILE_NAME_2=0;input.agc;74;2
 FILE_NAME_3=0;interface.agc;0;3
 FILE_NAME_4=0;logic.agc;0;4
-FILE_NAME_5=0;main.agc;3050;5
-FILE_NAME_6=1;screens.agc;86626;6
+FILE_NAME_5=0;main.agc;0;5
+FILE_NAME_6=0;screens.agc;504;6
 FILE_NAME_7=0;visuals.agc;356;7
 
 [project]
@@ -72,3 +73,4 @@ description=
 
 [watchvariables]
 watch_variable=@Version;
+

@@ -301,7 +301,7 @@ function DisplayTitleScreen( )
 		CreateButton( 2, (ScreenWidth / 2), startScreenY + (offsetScreenY*2) )
 		CreateButton( 3, (ScreenWidth / 2), startScreenY + (offsetScreenY*3) )
 		CreateButton( 4, (ScreenWidth / 2), startScreenY + (offsetScreenY*4) )
-		if (OnMobile = FALSE)
+		if (OnMobile = FALSE and Platform <> Web)
 			CreateButton( 5, (ScreenWidth / 2), startScreenY + (offsetScreenY*5) )
 		endif
 
@@ -502,7 +502,7 @@ function DisplayOptionsScreen( )
 
 		CreateButton( 6, (ScreenWidth / 2), (ScreenHeight-40+15) )
 
-		if (ValveBuild = FALSE)
+		if (ValveBuild = FALSE and Platform <> Web)
 			if ShowCursor = TRUE
 				CreateIcon(2, (ScreenWidth/2), (ScreenHeight-100+13)-25 )
 			elseif ShowCursor = FALSE
